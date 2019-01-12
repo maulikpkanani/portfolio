@@ -79,7 +79,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     'bioimage bio bio'
-    'job1 job2 job3';
+    'job1 job1 job1';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -97,13 +97,8 @@ main {
   .job-1 {
     grid-area: job1;
   }
-
-  .job-2 {
-    grid-area: job2;
-  }
-
-  .job-3 {
-    grid-area: job3;
+  .p {
+    color: red;
   }
   .job {
     background: lighten($primary-color, 5);
@@ -112,7 +107,7 @@ main {
   }
 }
 
-//Projects
+// Work/Projects
 .projects {
   display: grid;
   grid-gap: 0.7rem;
